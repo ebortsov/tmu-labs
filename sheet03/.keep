@@ -1,0 +1,12 @@
+mistakes/eval.sh
+mistakes/mistakes.cpp
+mistakes/CMakeLists.txt
+mistakes/tests
+header-files/eval.sh
+header-files/main.cpp
+header-files/math_operations.cpp
+header-files/print_utils.cpp
+header-files/CMakeLists.txt
+header-files/tests
+.clang-format
+.clang-tidy

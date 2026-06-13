@@ -1,0 +1,3 @@
+---
+Checks: 'bugprone-*,llvm-namespace-comment,misc-definitions-in-headers,misc-redundant-expression,modernize-*,performance-*,readability-misleading-indentation,cppcoreguidlines-macro-usage,google-readability-casting,-modernize-avoid-c-arrays,-modernize-use-auto,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-modernize-use-default-member-init,-clang-diagnostic-unqualified-std-cast-call,-bugprone-narrowing-conversions,-bugprone-easily-swappable-parameters,-modernize-macro-to-enum,google-*,-google-build-using-namespace,-google-readability-braces-around-statements,-google-explicit-constructor'
+WarningsAsErrors: '*'

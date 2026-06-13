@@ -1,0 +1,9 @@
+config_eval/eval.sh
+config_eval/CMakeLists.txt
+config_eval/config_concept.hpp
+config_eval/tests
+conceptual_serializer/eval.sh
+conceptual_serializer/CMakeLists.txt
+conceptual_serializer/tests
+.clang-format
+.clang-tidy

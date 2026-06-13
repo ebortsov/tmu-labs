@@ -1,0 +1,12 @@
+---
+Checks: 'bugprone-*,llvm-namespace-comment,misc-definitions-in-headers,misc-redundant-expression,modernize-*,performance-*,readability-misleading-indentation,readability-identifier-naming,cppcoreguidlines-macro-usage,google-readability-casting,-modernize-use-auto,-modernize-use-nodiscard,-modernize-use-trailing-return-type,-modernize-use-default-member-init,-clang-diagnostic-unqualified-std-cast-call,-bugprone-narrowing-conversions,-bugprone-easily-swappable-parameters,-modernize-macro-to-enum,portability-restrict-system-includes'
+WarningsAsErrors: '*'
+HeaderFilterRegex: 'lib/.+\.hpp$'
+CheckOptions:
+  readability-identifier-naming.ClassCase: CamelCase
+  readability-identifier-naming.ConstantCase: UPPER_CASE
+  readability-identifier-naming.EnumCase: CamelCase
+  readability-identifier-naming.FunctionCase: lower_case
+  readability-identifier-naming.LocalVariableCase: lower_case
+  readability-identifier-naming.NamespaceCase: lower_case
+  portability-restrict-system-includes.Includes : '*,-algorithm'

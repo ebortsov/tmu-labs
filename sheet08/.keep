@@ -1,0 +1,9 @@
+bitset/eval.sh
+bitset/CMakeLists.txt
+bitset/tests
+formatting/eval.sh
+formatting/CMakeLists.txt
+formatting/custom-objects.hpp
+formatting/tests
+.clang-format
+.clang-tidy

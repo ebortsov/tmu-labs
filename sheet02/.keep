@@ -1,0 +1,8 @@
+mandelbrot/eval.sh
+mandelbrot/tests
+mandelbrot/CMakeLists.txt
+simplevm/eval.sh
+simplevm/tests
+simplevm/CMakeLists.txt
+.clang-format
+.clang-tidy

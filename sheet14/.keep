@@ -1,0 +1,10 @@
+parallel-ht/eval.sh
+parallel-ht/CMakeLists.txt
+parallel-ht/tests
+parallel-ht/multimap.hpp
+parallel-ht/multimap.cpp
+insertonlybag/eval.sh
+insertonlybag/CMakeLists.txt
+insertonlybag/tests
+.clang-format
+.clang-tidy

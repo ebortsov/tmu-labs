@@ -1,0 +1,8 @@
+binary-tree/eval.sh
+binary-tree/CMakeLists.txt
+binary-tree/tests
+array/eval.sh
+array/CMakeLists.txt
+array/tests
+.clang-format
+.clang-tidy

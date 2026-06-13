@@ -1,0 +1,10 @@
+sport/eval.sh
+sport/sport.hpp
+sport/CMakeLists.txt
+sport/tests
+stockpiles/eval.sh
+stockpiles/stockpiles.hpp
+stockpiles/CMakeLists.txt
+stockpiles/tests
+.clang-format
+.clang-tidy

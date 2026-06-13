@@ -1,0 +1,11 @@
+tempfs/eval.sh
+tempfs/OSApi.hpp
+tempfs/OSApi.cpp
+tempfs/CMakeLists.txt
+tempfs/tests
+scope/eval.sh
+scope/log.hpp
+scope/CMakeLists.txt
+scope/tests
+.clang-format
+.clang-tidy

@@ -1,0 +1,9 @@
+coverage/StringMatching.cpp
+coverage/StringMatching.hpp
+coverage/eval.sh
+coverage/CMakeLists.txt
+expenses/eval.sh
+expenses/CMakeLists.txt
+expenses/tests
+.clang-format
+.clang-tidy
