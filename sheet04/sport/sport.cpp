@@ -18,9 +18,7 @@ void swap_pointers(const unsigned *&p1, const unsigned *&p2) {
 } // namespace
 
 void sort(const unsigned **points, const unsigned **times, unsigned sz) {
-    if (sz == 0) {
-        return;
-    }
+    if (sz == 0) { return; }
     for (size_t i = 1; i < sz; i++) {
         size_t node = i;
         while (node > 0) {
@@ -38,7 +36,7 @@ void sort(const unsigned **points, const unsigned **times, unsigned sz) {
     for (size_t i = sz - 1; i > 0; i--) {
         swap_pointers(points[0], points[i]);
         swap_pointers(times[0], times[i]);
-        
+
         size_t node = 0;
         size_t left{};
         while ((left = node * 2 + 1) < i) {
