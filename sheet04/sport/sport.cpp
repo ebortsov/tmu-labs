@@ -10,12 +10,17 @@ bool is_weaker(unsigned points1, unsigned time1, unsigned points2, unsigned time
     return points1 < points2 || (points1 == points2 && time1 > time2);
 }
 
-void swap_pointers(void *p1, void *p2) {
-
+void swap_pointers(const unsigned *&p1, const unsigned *&p2) {
+    const unsigned *tmp = p1;
+    p1 = p2;
+    p2 = tmp;
 }
 } // namespace
 
 void sort(const unsigned **points, const unsigned **times, unsigned sz) {
+    if (sz == 0) {
+        return;
+    }
     for (size_t i = 1; i < sz; i++) {
         size_t node = i;
         while (node > 0) {
@@ -45,10 +50,10 @@ void sort(const unsigned **points, const unsigned **times, unsigned sz) {
             if (is_weaker(*points[weakest_node], *times[weakest_node], *points[node], *times[node])) {
                 swap_pointers(points[node], points[weakest_node]);
                 swap_pointers(times[node], times[weakest_node]);
+                node = weakest_node;
+            } else {
+                break;
             }
-            swap_pointers(points[node], points[weakest_node]);
-            swap_pointers(times[node], times[weakest_node]);
-            node = weakest_node;
         }
     }
 }
